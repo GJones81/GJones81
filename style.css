@@ -17,9 +17,11 @@ h1 {
 
 #stationary {
 	position: fixed;
+	color: white;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url('images/harley-davidson-56R8TzG7Lzc-unsplash.jpg');
+	background-color: #248f8f;
+	/* background-image: url('images/harley-davidson-56R8TzG7Lzc-unsplash.jpg'); */
 	width: 40%;
 	height: 100vh;
 	padding: 10px;
