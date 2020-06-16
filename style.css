@@ -17,23 +17,38 @@ h1 {
 
 #stationary {
 	position: fixed;
-	color: white;
+	color: #c2f0f0;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: #248f8f;
-	/* background-image: url('images/harley-davidson-56R8TzG7Lzc-unsplash.jpg'); */
-	width: 40%;
+	width: 30%;
 	height: 100vh;
 	padding: 10px;
 	margin: 0px;
 }
 
 #scrollable {
-	left: 40%;
+	background-color: #c2f0f0;
+	color: #248f8f;
+	left: 30%;
 	position: relative;
 	float: right;
-	width: 60%;
+	width: 70%;
 	height: 100vh;
 	padding: 10px;
 	margin: 0px;
+}
+
+a {
+	color: #00ffff;
+}
+
+img {
+	max-width: 15%;
+}
+
+.project_card {
+	border-width: 5px;
+	border-color: black;
+	border-radius: 10px;
 }

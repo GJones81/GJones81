@@ -8,47 +8,29 @@
 <body>
 	<div id="container">
 		<aside id="stationary">
-			<h1>Portfolio</h1>
 			<h1>Guy Jones</h1>
+			<h2>Full-stack Software Engineer</h2>
+			<h3>Contact Information</h3>
+			<h4>Email</h4>
+			<p>jones.guy81@gmail.com</p>
+			<p><a href="https://www.linkedin.com/in/jonesguy81?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BvL%2Fi7brFR2iQNoXna3EQsw%3D%3D" target="blank"><img src="images/LI-In-Bug.png" alt="LinkedIn Profile"></a></p>
+			<p><a href="https://github.com/GJones81" target="blank"><img src="images/GitHub_Logo_White.png" alt="Github Profile"></a></p>
 		</aside>
 		<div id="scrollable">
-			<h1>Projects Etc</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<h1>Projects</h1>
+			<div class="project_card">
+				<h2> Grocery Gopher - Express Application</h2>
+				<p>This is an express app for saving, editing, and using a grocery list while shopping. It is styled with a mobile-first mindset. The app also includes an API to retrieve recipes and save them to a database.
+				This app makes use of two tables to manage the grocery list. The active_list table is for the current list only, and is populated by a findOrCreate function so there aren't duplicate entries. 
+				The inventory_list is populated by a simple create function. The presence of duplicate entires is used to create a list of all items purchased twice or more in the last 30 days.
+				</p>
+			</div>
+			<div class="project_card">
+				<h2>Exoplanet Seeker - Flask Application</h2>
+				<p>This app collects a subset of the data available on NASA's Confirmed Exoplanet database table. Then it first presents that data to the user in a table format so that the user can see all of the data. 
+				When the user is ready, they simply click on the 'Go Graph the Data' link and are taken to a page where they can select different values to graph, and what format of graph they would like to use.
+				</p>
+			</div>
 		</div>
 	</div>
 </body>
