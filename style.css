@@ -4,11 +4,7 @@ body {
 	text-align: center;
 	padding: 0px;
 	margin: 0px;
-	background-color: #e6ffff; 
-}
-
-h1 {
-	text-decoration: underline;
+	background-color: #c2f0f0; 
 }
 
 #container {
@@ -17,7 +13,7 @@ h1 {
 
 #stationary {
 	position: fixed;
-	color: #c2f0f0;
+	color: #bad3f0;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: #248f8f;
@@ -29,18 +25,17 @@ h1 {
 
 #scrollable {
 	background-color: #c2f0f0;
-	color: #248f8f;
+	color: #205a91;
 	left: 30%;
 	position: relative;
 	float: right;
 	width: 70%;
-	height: 100vh;
 	padding: 10px;
 	margin: 0px;
 }
 
-a {
-	color: #00ffff;
+.scrollable_links {
+	color: #7733ff;
 }
 
 img {
