@@ -11,7 +11,7 @@ body {
 	display: flex;
 }
 
-#stationary {
+#mobile-demo {
 	position: fixed;
 	color: #bad3f0;
 	background-repeat: no-repeat;
