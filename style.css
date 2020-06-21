@@ -34,6 +34,17 @@ body {
 	margin: 0px;
 }
 
+@media screen and (max-width: 600px;) {
+	#stationary {
+		min-width: 100%;
+	}
+} 
+
+@media screen and (max-width: 600px;) {
+	#scrollable {
+		min-width: 100%;
+	}
+}
 .project_links_section {
 }
 
