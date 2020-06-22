@@ -1,6 +1,5 @@
 
 body {
-
 	text-align: center;
 	padding: 0px;
 	margin: 0px;
@@ -45,8 +44,6 @@ body {
 		width: 100%;
 	}
 }
-.project_links_section {
-}
 
 .project_link {
 	color: #7733ff;
@@ -54,6 +51,22 @@ body {
 
 img {
 	max-width: 15%;
+}
+
+.skills-logo {
+	margin: 10px;
+}
+
+#javascript-logo {
+	max-width: 12%;
+}
+
+#css-logo {
+	max-width: 11%;
+}
+
+#flask-logo {
+	max-width: 11%;
 }
 
 .screenshot {
