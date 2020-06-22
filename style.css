@@ -56,6 +56,10 @@ img {
 	max-width: 15%;
 }
 
+.screenshot {
+	max-width: 45%;
+}
+
 .project_card {
 	border-width: 5px;
 	border-color: black;
