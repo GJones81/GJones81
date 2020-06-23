@@ -12,7 +12,7 @@ body {
 
 #stationary {
 	position: fixed;
-	color: #bad3f0;
+	color: black;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: #248f8f;
@@ -49,12 +49,17 @@ body {
 	color: #7733ff;
 }
 
+#resume-link {
+	color: darkviolet;
+}
+
 img {
-	max-width: 15%;
+	max-width: 40%;
 }
 
 .skills-logo {
 	margin: 10px;
+	max-width: 15%;
 }
 
 #javascript-logo {
@@ -77,4 +82,12 @@ img {
 	border-width: 5px;
 	border-color: black;
 	border-radius: 10px;
+}
+
+#contact-row1 {
+	margin: 15px;
+}
+
+#contact-row2 {
+	margin: 15px;
 }
