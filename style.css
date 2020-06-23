@@ -54,7 +54,7 @@ body {
 }
 
 img {
-	max-width: 40%;
+	max-width: 35%;
 }
 
 .skills-logo {
@@ -75,7 +75,8 @@ img {
 }
 
 .screenshot {
-	max-width: 45%;
+	max-width: 70%;
+	margin: 10px;
 }
 
 .project_card {
@@ -89,5 +90,13 @@ img {
 }
 
 #contact-row2 {
+	margin: 15px;
+}
+
+#githug-logo {
+	max-width: 50%;
+}
+
+.section-header {
 	margin: 15px;
 }
