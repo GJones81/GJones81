@@ -3,46 +3,38 @@ body {
 	text-align: center;
 	padding: 0px;
 	margin: 0px;
-	background-color: #c2f0f0; 
-}
-
-#container {
-	display: flex;
-}
-
-#stationary {
-	position: fixed;
-	color: black;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: #248f8f;
-	width: 40%;
-	height: 100vh;
-	padding: 10px;
-	margin: 0px;
-}
-
-#scrollable {
 	background-color: #c2f0f0;
-	color: #205a91;
-	left: 40%;
-	position: relative;
-	float: right;
-	width: 60%;
+}
+
+h1 {
+	text-decoration: underline;
+}
+#nav {
+	background-color: #a39d7c;
+	margin: 0px;
+}
+
+.nav-link {
+	color: #5c5841;
+	display: inline;
+	font-size: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#about {
+	color: #5c5841;
+	background-color: #93cfcf;
+	height: 160vh;
 	padding: 10px;
 	margin: 0px;
 }
 
-@media screen and (max-width: 600px;) {
-	#stationary {
-		width: 100%;
-	}
-} 
-
-@media screen and (max-width: 600px;) {
-	#scrollable {
-		width: 100%;
-	}
+#projects {
+	background-color: #c2f0f0;
+	color: #5c5841;
+	padding: 10px;
+	margin: 0px;
 }
 
 .project_link {
@@ -51,6 +43,11 @@ body {
 
 #resume-link {
 	color: darkviolet;
+	font-size: 20px;
+}
+
+#email {
+	font-size: 20px;
 }
 
 img {
@@ -94,9 +91,13 @@ img {
 }
 
 #githug-logo {
-	max-width: 50%;
+	max-width: 75%;
 }
 
 .section-header {
 	margin: 15px;
+}
+
+.section-subheader {
+	margin-top: -10px;
 }
