@@ -25,7 +25,7 @@ h1 {
 #about {
 	color: #5c5841;
 	background-color: #93cfcf;
-	height: 160vh;
+	height: 180vh;
 	padding: 10px;
 	margin: 0px;
 }
@@ -69,6 +69,14 @@ img {
 
 #flask-logo {
 	max-width: 11%;
+}
+
+#sql-logo {
+	max-width: 17%;
+}
+
+#mongo-logo {
+	max-width: 12%;
 }
 
 .screenshot {
