@@ -23,9 +23,14 @@ body {
 	padding-right: 20px;
 }
 
-h1 {
+.section-header {
 	text-decoration: underline;
-	font-size: 35px;
+	font-size: 45px;
+	margin: 15px;
+}
+
+.section-subheader {
+	margin-top: -10px;
 }
 
 h2 {
@@ -73,12 +78,20 @@ img {
 	max-width: 12%;
 }
 
+#python-logo {
+	max-width: 19%;
+}
+
 #css-logo {
 	max-width: 10.5%;
 }
 
 #html-logo {
 	max-width: 14%;
+}
+
+#node-logo {
+	max-width: 18%;
 }
 
 #flask-logo {
@@ -120,12 +133,4 @@ img {
 
 #linkedin-logo {
 	max-width: 35%;
-}
-
-.section-header {
-	margin: 15px;
-}
-
-.section-subheader {
-	margin-top: -10px;
 }
