@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 
 body {
 	text-align: center;
@@ -6,20 +9,27 @@ body {
 	background-color: #c2f0f0;
 }
 
-h1 {
-	text-decoration: underline;
-}
-#nav {
+.nav {
 	background-color: #a39d7c;
 	margin: 0px;
+	min-height: 36px;
 }
 
 .nav-link {
 	color: #5c5841;
 	display: inline;
-	font-size: 30px;
-	padding-left: 30px;
-	padding-right: 30px;
+	font-size: 18px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+h1 {
+	text-decoration: underline;
+	font-size: 35px;
+}
+
+h2 {
+	font-size: 25px;
 }
 
 #about {
@@ -43,11 +53,11 @@ h1 {
 
 #resume-link {
 	color: darkviolet;
-	font-size: 20px;
+	font-size: 25px;
 }
 
 #email {
-	font-size: 20px;
+	font-size: 25px;
 }
 
 img {
@@ -56,7 +66,7 @@ img {
 
 .skills-logo {
 	margin: 10px;
-	max-width: 15%;
+	max-width: 18%;
 }
 
 #javascript-logo {
@@ -64,11 +74,19 @@ img {
 }
 
 #css-logo {
-	max-width: 11%;
+	max-width: 10.5%;
+}
+
+#html-logo {
+	max-width: 14%;
 }
 
 #flask-logo {
 	max-width: 11%;
+}
+
+#bootstrap-logo {
+	max-width: 12%;
 }
 
 #sql-logo {
@@ -85,9 +103,7 @@ img {
 }
 
 .project_card {
-	border-width: 5px;
-	border-color: black;
-	border-radius: 10px;
+
 }
 
 #contact-row1 {
@@ -99,7 +115,11 @@ img {
 }
 
 #github-logo {
-	max-width: 75%;
+	max-width: 50%;
+}
+
+#linkedin-logo {
+	max-width: 35%;
 }
 
 .section-header {

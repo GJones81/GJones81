@@ -1,0 +1,113 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+    background-color: #c2f0f0;
+}
+
+h1 {
+	text-decoration: underline;
+}
+
+.nav {
+    background-color: #a39d7c;
+	margin: 0px;
+}
+
+.nav-link {
+	color: #5c5841;
+	display: inline;
+	font-size: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#about {
+	color: #5c5841;
+	background-color: #93cfcf;
+	height: 180vh;
+	padding: 10px;
+	margin: 0px;
+}
+
+#projects {
+	background-color: #c2f0f0;
+	color: #5c5841;
+	padding: 10px;
+	margin: 0px;
+}
+
+.project_link {
+	color: #7733ff;
+}
+
+#resume-link {
+	color: darkviolet;
+	font-size: 20px;
+}
+
+#email {
+	font-size: 20px;
+}
+
+img {
+	max-width: 35%;
+}
+
+.skills-logo {
+	margin: 10px;
+	max-width: 15%;
+}
+
+#javascript-logo {
+	max-width: 12%;
+}
+
+#css-logo {
+	max-width: 11%;
+}
+
+#flask-logo {
+	max-width: 11%;
+}
+
+#sql-logo {
+	max-width: 17%;
+}
+
+#mongo-logo {
+	max-width: 12%;
+}
+
+.screenshot {
+	max-width: 70%;
+	margin: 10px;
+}
+
+.project_card {
+
+}
+
+#contact-row1 {
+	margin: 15px;
+}
+
+#contact-row2 {
+	margin: 15px;
+}
+
+#github-logo {
+	max-width: 75%;
+}
+
+.section-header {
+	margin: 15px;
+}
+
+.section-subheader {
+	margin-top: -10px;
+}

@@ -4,13 +4,15 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" media="screen and (max-width: 600px)" type="text/css" href="mobile.css">
+	<link rel="stylesheet" media="screen and (min-width: 601px)" type="text/css" href="desktop.css">
 	<title>Portfolio of Guy Jones</title>
 </head>
 <body>
-	<nav id="nav">
+	<nav class="nav">
 		<a class="nav-link" href="index.html">About Guy</a>
 		<a class="nav-link" href="projects.html">Projects</a>
+		<a class="nav-link" href="Guy Jones Design Resume 2020 copy.pdf" target="blank">Resume</a>
 	</nav>
 	<div id="about">
 		<h1>Guy Jones</h1>
@@ -25,7 +27,7 @@
 				<div class="col-sm">
 					<img class="skills-logo" id="javascript-logo" src="images/JS.png">
 					<img class="skills-logo" src="images/kisspng-python-programming-language-computer-programming-c-hanuman-png-transparent-images-free-download-clip-5b814ed35d07d0.8307633215352009793811.png">
-					<img class="skills-logo" src="images/HTML5_Logo_512.png">
+					<img class="skills-logo" id="html-logo" src="images/HTML5_Logo_512.png">
 					<img class="skills-logo" id="css-logo" src="images/CSS3_logo_and_wordmark.svg.png">
 				</div>
 			</div>
@@ -34,7 +36,7 @@
 					<img class="skills-logo" src="images/kisspng-react-javascript-library-angularjs-web-application-framework-5abc50ddd0d001.3584354415222909098553.png">
 					<img class="skills-logo" src="images/FAVPNG_node-js-javascript-software-developer-npm_gbvQqTbN.png">
 					<img class="skills-logo" id="flask-logo" src="images/FAVPNG_flask-python-bottle-web-framework-web-application_Dn3SNeLi.png">
-					<img class="skills-logo" src="images/PinClipart.com_eclipse-mars-svn_353932.png">
+					<img class="skills-logo" id="bootstrap-logo" src="images/PinClipart.com_eclipse-mars-svn_353932.png">
 				</div>
 			</div>
 			<div class="row">
@@ -47,22 +49,22 @@
 		<hr>
 		<h4 class="section-header">Contact Information</h4>
 		<div class="container">
-			<div id="contact-row1" class="row align-items-center">
-				<div class="col-sm">
-					<p><a href="https://github.com/GJones81" target="blank"><img id="github-logo" src="images/GitHub_Logo_White.png" alt="Github Profile"></a></p>
-				</div>
-				<div class="col-sm">
-					<p><a href="https://www.linkedin.com/in/jonesguy81?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BvL%2Fi7brFR2iQNoXna3EQsw%3D%3D" target="blank"><img id="linkedin-logo" src="images/LI-In-Bug.png" alt="LinkedIn Profile"></a></p>
-				</div>
-			</div>
-		</div>
-		<div class="container">
 			<div id="contact-row2" class="row align-items-center">
 				<div class="col-sm">
 					<p id="email">jones.guy81@gmail.com</p>
 				</div>
 				<div class="col-sm">
 					<p><a id="resume-link" href="Guy Jones Design Resume 2020 copy.pdf" target="blank">Resume</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div id="contact-row1" class="row align-items-center">
+				<div class="col-sm">
+					<p><a href="https://github.com/GJones81" target="blank"><img id="github-logo" src="images/GitHub_Logo_White.png" alt="Github Profile"></a></p>
+				</div>
+				<div class="col-sm">
+					<p><a href="https://www.linkedin.com/in/jonesguy81?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BvL%2Fi7brFR2iQNoXna3EQsw%3D%3D" target="blank"><img id="linkedin-logo" src="images/LI-In-Bug.png" alt="LinkedIn Profile"></a></p>
 				</div>
 			</div>
 		</div>
