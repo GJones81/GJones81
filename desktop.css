@@ -29,15 +29,25 @@ h1 {
 #about {
 	color: #5c5841;
 	background-color: #93cfcf;
-	height: 180vh;
-	padding: 10px;
+	height: 200vh;
+	/* padding: 10px; */
 	margin: 0px;
+}
+
+#lg-screen-banner {
+	background-image: url("images/grayscale-photography-of-stone-2931246.jpg");
+	background-color: #5c5841;
+	background-size: cover;
+	color: white;
+	margin: 0px;
+	padding: 100px;
+	height: 50vh;
 }
 
 #projects {
 	background-color: #c2f0f0;
 	color: #5c5841;
-	padding: 10px;
+	/* padding: 10px; */
 	margin: 0px;
 }
 
@@ -46,11 +56,13 @@ h1 {
 }
 
 #resume-link {
+	text-align: left;
 	color: darkviolet;
 	font-size: 20px;
 }
 
 #email {
+	text-align: right;
 	font-size: 20px;
 }
 
@@ -88,7 +100,7 @@ img {
 	margin: 10px;
 }
 
-.project_card {
+.project-card {
 
 }
 
@@ -106,8 +118,10 @@ img {
 
 .section-header {
 	margin: 15px;
+	font-size: 50px;
 }
 
 .section-subheader {
 	margin-top: -10px;
+	font-size: 40px;
 }
