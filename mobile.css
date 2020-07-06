@@ -70,10 +70,12 @@ h2 {
 #resume-link {
 	color: darkviolet;
 	font-size: 20px;
+	margin: 10px;
 }
 
 #email {
 	font-size: 20px;
+	margin: 10px;
 }
 
 #brand-statement {
@@ -150,9 +152,9 @@ h2 {
 }
 
 #github-logo {
-	max-width: 50%;
+	max-width: 15%;
 }
 
 #linkedin-logo {
-	max-width: 30%;
+	max-width: 18%;
 }

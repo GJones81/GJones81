@@ -55,17 +55,6 @@ h1 {
 	color: #7733ff;
 }
 
-#resume-link {
-	text-align: left;
-	color: darkviolet;
-	font-size: 20px;
-}
-
-#email {
-	text-align: right;
-	font-size: 20px;
-}
-
 img {
 	max-width: 35%;
 }
@@ -104,16 +93,44 @@ img {
 
 }
 
-#contact-row1 {
-	margin: 15px;
+#contact-block {
+	margin: 10px;
+	padding: 10px;
 }
 
-#contact-row2 {
-	margin: 15px;
+#resume-link {
+	/* text-align: left; */
+	color: darkviolet;
+	font-size: 20px;
+	margin: 30px;
+	padding: 30px;
+	border: 1px #5c5841 solid;
+	border-radius: 10px;
+}
+
+#email {
+	/* text-align: right; */
+	font-size: 20px;
+	margin: 30px;
+	padding: 30px;
+	border: 1px #5c5841 solid;
+	border-radius: 10px;
 }
 
 #github-logo {
-	max-width: 75%;
+	max-width: 22%;
+}
+
+#github-logo-space {
+	margin: 0px;
+}
+
+#linkedin-logo {
+	max-width: 25%;
+}
+
+#linkedin-logo-space {
+	margin: 0px;
 }
 
 .section-header {
