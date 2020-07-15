@@ -60,27 +60,31 @@ img {
 
 .skills-logo {
 	margin: 10px;
-	max-width: 15%;
+	max-width: 10%;
+}
+
+#html_logo {
+	max-width: 8%;
 }
 
 #javascript-logo {
-	max-width: 12%;
+	max-width: 7%;
 }
 
 #css-logo {
-	max-width: 11%;
+	max-width: 6%;
 }
 
 #flask-logo {
-	max-width: 11%;
+	max-width: 6%;
 }
 
 #sql-logo {
-	max-width: 17%;
+	max-width: 12%;
 }
 
 #mongo-logo {
-	max-width: 12%;
+	max-width: 7%;
 }
 
 .screenshot {
